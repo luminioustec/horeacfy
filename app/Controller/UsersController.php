@@ -22,7 +22,7 @@ class UsersController extends AppController {
 		$this->layout='frontend';
 		if ($this->request->is('post')) {  
 	        if ($this->Auth->login()) {
-	        	 $this->Session->setFlash(__('Welcome '.$this->Auth->user('username')));
+	        	 $this->Session->setFlash('Bienvenido '.$this->Auth->user('username'),'success');
 				$url  =  $this->Auth->redirect(); //echo $this->Auth->user('role'); die;
 	            if(!empty($_GET['referer'])){
 					$url  =  SITE_URL. urldecode( $_GET['referer'] );

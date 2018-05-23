@@ -9,7 +9,7 @@ Choose Family Type</h1><br/>
 <?php foreach ($families as $post): 
 $family_id=base64_encode($post['Family']['id']);  
 ?>
-<a class="btn default btn-block" href="<?= SITE_URL; ?>wholesalers/add_wholesaler_list/<?php echo $cat_id;?>/<?php echo $family_id;?>"><?php echo $post['Family']['name']; ?> </a>
+<a style="text-align:left;" class="btn default btn-block" href="<?= SITE_URL; ?>wholesalers/add_wholesaler_list/<?php echo $cat_id;?>/<?php echo $family_id;?>"><?php echo $post['Family']['name']; ?> </a>
 							
 <?php endforeach; ?>
 
