@@ -17,12 +17,6 @@ public function beforeSave($options = array()) {
     return true;
 }
 	public $validate = array(
-		'vat' => array(
-            'required' => array(
-                'rule' => 'notBlank',
-                'message' => 'CIF/NIF is required'
-            )
-        ),
         'username' => array(
                 'rule' => 'isUnique',
                 'message' => 'By “Este nombre ya ha sido utilizado anteriormente'

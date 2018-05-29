@@ -16,7 +16,7 @@
 							<form class="form-horizontal" role="form">
 								<div class="form-body">
 									<div class="form-group">
-										<label class="col-md-3 control-label">Marca</label>
+										<label class="col-md-3 control-label">Marca deseada (opcional)</label>
 										<div class="col-md-9">
 										<?php echo $this->Form->input('brand', array('class'=>'form-control input-lg','label'=>false,'type'=>'text')); ?>
 										
@@ -29,28 +29,28 @@
 										</div>
 									</div>
 									<div class="form-group">
-										<label class="col-md-3 control-label">Consumo mensual</label>
+										<label class="col-md-3 control-label">consumo mes (opcional)</label>
 										<div class="col-md-9">
 										<?php echo $this->Form->input('quantyPerMonth', array('class'=>'form-control input-lg','label'=>false,'type'=>'text')); ?>
 										
 										</div>
 									</div>
 									<div class="form-group">
-										<label class="col-md-3 control-label">Precio objetivo</label>
+										<label class="col-md-3 control-label">precio objetivo (opcional)</label>
 										<div class="col-md-9">
 										<?php echo $this->Form->input('targetPrice', array('class'=>'form-control input-lg','label'=>false,'type'=>'text')); ?>
 										
 										</div>
 									</div>
 									<div class="form-group">
-										<label class="col-md-3 control-label">Formato</label>
+										<label class="col-md-3 control-label">formato (opcional)</label>
 										<div class="col-md-9">
 										<?php echo $this->Form->input('format', array('class'=>'form-control input-lg','label'=>false,'type'=>'text')); ?>
 										
 										</div>
 									</div>
 									<div class="form-group">
-										<label class="col-md-3 control-label">Comentarios</label>
+										<label class="col-md-3 control-label">comentarios (opcional)</label>
 										<div class="col-md-9">
 										<?php echo $this->Form->input('comments', array('class'=>'form-control input-lg','label'=>false,'type'=>'textarea')); ?>
 										

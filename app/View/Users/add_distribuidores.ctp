@@ -21,7 +21,7 @@
                       <div class="form-group">
                         <label for="firstname" class="col-lg-4 control-label">CIF/NIF <span class="require">*</span></label>
                         <div class="col-lg-8">
-						  <?php echo $this->Form->input('vat',array('class'=>'form-control','div'=>false,'label'=>false)); ?>
+						  <?php echo $this->Form->input('vat',array('class'=>'form-control','div'=>false,'label'=>false,'required'=>'required')); ?>
                         </div>
                       </div>
                       <div class="form-group">
