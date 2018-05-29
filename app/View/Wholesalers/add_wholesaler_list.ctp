@@ -15,14 +15,14 @@
 							<form class="form-horizontal" role="form">
 								<div class="form-body">
 									<div class="form-group">
-										<label class="col-md-3 control-label">Marca</label>
+										<label class="col-md-3 control-label">Marca <span class="require">*</span></label>
 										<div class="col-md-9">
 										<?php echo $this->Form->input('brand', array('class'=>'form-control input-lg','label'=>false,'type'=>'text')); ?>
 										
 										</div>
 									</div>
 									<div class="form-group">
-										<label class="col-md-3 control-label">Comentarios</label>
+										<label class="col-md-3 control-label">Comentarios (opcional)</label>
 										<div class="col-md-9">
 										<?php echo $this->Form->input('comments', array('class'=>'form-control input-lg','label'=>false,'type'=>'textarea')); ?>
 										

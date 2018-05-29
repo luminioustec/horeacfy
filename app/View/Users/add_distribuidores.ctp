@@ -11,15 +11,15 @@
 
           <!-- BEGIN CONTENT -->
           <div class="col-md-12 col-sm-9">
-            <h1>Create an account</h1>
+            <h1>Crear cuenta</h1>
             <div class="content-form-page">
               <div class="row">
                 <div class="col-md-7 col-sm-7">
                   <?php echo $this->Form->create('User',array('class'=>'form-horizontal'));?>
                     <fieldset>
-                      <legend>Your personal details</legend>
+                      <legend>Tus datos</legend>
                       <div class="form-group">
-                        <label for="firstname" class="col-lg-4 control-label">VAT</label>
+                        <label for="firstname" class="col-lg-4 control-label">CIF/NIF <span class="require">*</span></label>
                         <div class="col-lg-8">
 						  <?php echo $this->Form->input('vat',array('class'=>'form-control','div'=>false,'label'=>false)); ?>
                         </div>
@@ -33,13 +33,13 @@
                     </fieldset>
                     <fieldset>
                       <div class="form-group">
-                        <label for="password" class="col-lg-4 control-label">Password <span class="require">*</span></label>
+                        <label for="password" class="col-lg-4 control-label">Contraseña <span class="require">*</span></label>
                         <div class="col-lg-8">
                           <?php echo $this->Form->input('password',array('class'=>'form-control','div'=>false,'label'=>false,'type'=>'password')); ?>
                         </div>
                       </div>
                       <div class="form-group">
-                        <label for="confirm-password" class="col-lg-4 control-label">Name<span class="require">*</span></label>
+                        <label for="confirm-password" class="col-lg-4 control-label">Nombre comercial<span class="require">*</span></label>
                         <div class="col-lg-8">
                          <?php echo $this->Form->input('name',array('class'=>'form-control','div'=>false,'label'=>false)); ?>
                         </div>
@@ -47,13 +47,13 @@
                     </fieldset>
 					<fieldset>
                       <div class="form-group">
-                        <label for="password" class="col-lg-4 control-label">Type Of Business <span class="require">*</span></label>
+                        <label for="password" class="col-lg-4 control-label">Tipo de negocio<span class="require">*</span></label>
                         <div class="col-lg-8">
                           <?php echo $this->Form->input('typeOfbusiness',array('class'=>'form-control','div'=>false,'label'=>false,'typw'=>'Select','empty'=>'Select','options'=>$tob)); ?>
                         </div>
                       </div>
                       <div class="form-group">
-                        <label for="confirm-password" class="col-lg-4 control-label">Contact Name<span class="require">*</span></label>
+                        <label for="confirm-password" class="col-lg-4 control-label">Nombre de contacto<span class="require">*</span></label>
                         <div class="col-lg-8">
                          <?php echo $this->Form->input('contactName',array('class'=>'form-control','div'=>false,'label'=>false)); ?>
                         </div>
@@ -61,13 +61,13 @@
                     </fieldset>
 					<fieldset>
                       <div class="form-group">
-                        <label for="password" class="col-lg-4 control-label">Contact Email <span class="require">*</span></label>
+                        <label for="password" class="col-lg-4 control-label">Email de contacto<span class="require">*</span></label>
                         <div class="col-lg-8">
                           <?php echo $this->Form->input('contactEmail',array('class'=>'form-control','div'=>false,'label'=>false)); ?>
                         </div>
                       </div>
                       <div class="form-group">
-                        <label for="confirm-password" class="col-lg-4 control-label">Contact Mobile<span class="require">*</span></label>
+                        <label for="confirm-password" class="col-lg-4 control-label">Teléfono de contacto<span class="require">*</span></label>
                         <div class="col-lg-8">
                          <?php echo $this->Form->input('contactMobile',array('class'=>'form-control','div'=>false,'label'=>false)); ?>
                         </div>
@@ -75,13 +75,13 @@
                     </fieldset>
 					<fieldset>
                       <div class="form-group">
-                        <label for="password" class="col-lg-4 control-label">Address <span class="require">*</span></label>
+                        <label for="password" class="col-lg-4 control-label">Dirección <span class="require">*</span></label>
                         <div class="col-lg-8">
                           <?php echo $this->Form->input('address',array('class'=>'form-control','div'=>false,'label'=>false)); ?>
                         </div>
                       </div>
                       <div class="form-group">
-                        <label for="confirm-password" class="col-lg-4 control-label">City<span class="require">*</span></label>
+                        <label for="confirm-password" class="col-lg-4 control-label">Ciudad<span class="require">*</span></label>
                         <div class="col-lg-8">
                          <?php echo $this->Form->input('city',array('class'=>'form-control','div'=>false,'label'=>false)); ?>
                         </div>
@@ -89,13 +89,13 @@
                     </fieldset>
 					<fieldset>
                       <div class="form-group">
-                        <label for="password" class="col-lg-4 control-label">Zipcode <span class="require">*</span></label>
+                        <label for="password" class="col-lg-4 control-label">Cóido postal<span class="require">*</span></label>
                         <div class="col-lg-8">
                           <?php echo $this->Form->input('zipcode',array('class'=>'form-control','div'=>false,'label'=>false)); ?>
                         </div>
                       </div>
                       <div class="form-group">
-                        <label for="confirm-password" class="col-lg-4 control-label">Province<span class="require">*</span></label>
+                        <label for="confirm-password" class="col-lg-4 control-label">Provincia<span class="require">*</span></label>
                         <div class="col-lg-8">
                          <?php echo $this->Form->input('province',array('class'=>'form-control','div'=>false,'label'=>false)); ?>
                         </div>
@@ -103,11 +103,11 @@
                     </fieldset>
 					<fieldset>
 
-                      <div class="form-group">
-                        <label for="password" class="col-lg-4 control-label">Country <span class="require">*</span></label>
+                      <!--div class="form-group">
+                        <label for="password" class="col-lg-4 control-label">País<span class="require">*</span></label>
                         <div class="col-lg-8">
                           <?php echo $this->Form->input('country',array('class'=>'form-control','div'=>false,'label'=>false)); ?>
-                        </div>
+                        </div-->
                       </div>
                     </fieldset>
 					  <?php echo $this->Form->input('role',array('type'=>'hidden','value'=>'wholesaler')); ?>

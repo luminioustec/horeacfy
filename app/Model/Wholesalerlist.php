@@ -8,5 +8,14 @@ class Wholesalerlist extends AppModel {
         )
     );
 	
+	public $validate = array(
+		'brand' => array(
+            'required' => array(
+                'rule' => 'notBlank',
+                'message' => 'Marca is required'
+            )
+        )
+	);	
+	
 
 }

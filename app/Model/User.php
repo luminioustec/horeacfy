@@ -17,6 +17,12 @@ public function beforeSave($options = array()) {
     return true;
 }
 	public $validate = array(
+		'vat' => array(
+            'required' => array(
+                'rule' => 'notBlank',
+                'message' => 'CIF/NIF is required'
+            )
+        ),
         'username' => array(
                 'rule' => 'isUnique',
                 'message' => 'By “Este nombre ya ha sido utilizado anteriormente'
@@ -80,13 +86,7 @@ public function beforeSave($options = array()) {
                 'rule' => 'notBlank',
                 'message' => 'A province is required'
             )
-        ),
-		 'country' => array(
-            'required' => array(
-                'rule' => 'notBlank',
-                'message' => 'A country is required'
-            )
-        ),
+        ), 
         'role' => array(
             'valid' => array(
                 'rule' => array('inList', array('customer', 'wholesaler')),

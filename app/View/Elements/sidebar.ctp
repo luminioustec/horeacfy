@@ -93,7 +93,7 @@
 					<a href="<?= SITE_URL;?>wholesalers/impexp_wholesalerlists">
 					<i class="icon-paper-plane"></i>
 					<span class="title">
-					Importar/Exportar listas</span>
+					Importar CSV con ofertas</span>
 					</a>
 				</li>
 				<li class="tooltips" data-container="body" data-placement="right" data-html="true" data-original-title="Realiza ofertas">
