@@ -18,12 +18,12 @@
                   <?php echo $this->Form->create('User',array('class'=>'form-horizontal'));?>
                     <fieldset>
                       <legend>Tus datos</legend>
-                      <div class="form-group">
+                      <!--div class="form-group">
                         <label for="firstname" class="col-lg-4 control-label">CIF/NIF</label>
                         <div class="col-lg-8">
 						  <?php echo $this->Form->input('vat',array('class'=>'form-control','div'=>false,'label'=>false)); ?>
                         </div>
-                      </div>
+                      </div-->
                       <div class="form-group">
                         <label for="email" class="col-lg-4 control-label">Email <span class="require">*</span></label>
                         <div class="col-lg-8">
@@ -95,7 +95,7 @@
                         </div>
                       </div>
                       <div class="form-group">
-                        <label for="confirm-password" class="col-lg-4 control-label">Province<span class="require">*</span></label>
+                        <label for="confirm-password" class="col-lg-4 control-label">Provincia<span class="require">*</span></label>
                         <div class="col-lg-8">
                          <?php echo $this->Form->input('province',array('class'=>'form-control','div'=>false,'label'=>false)); ?>
                         </div>
@@ -103,11 +103,11 @@
                     </fieldset>
 					<fieldset>
 
-                      <div class="form-group">
+                      <!--div class="form-group">
                         <label for="password" class="col-lg-4 control-label">País <span class="require">*</span></label>
                         <div class="col-lg-8">
                           <?php echo $this->Form->input('country',array('class'=>'form-control','div'=>false,'label'=>false)); ?>
-                        </div>
+                        </div-->
                       </div>
                     </fieldset>
 					  <?php echo $this->Form->input('role',array('type'=>'hidden','value'=>'customer')); ?>

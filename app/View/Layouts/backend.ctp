@@ -92,13 +92,13 @@ License: You must have a valid license purchased only from themeforest(the above
 						}	
 						?> </span>
 						<!-- DOC: Do not remove below empty space(&nbsp;) as its purposely used -->
-						<img alt="" class="img-circle" src="<?php echo THEME_PATH;?>assets/admin/layout4/img/avatar9.jpg"/>
+						<img alt="" class="img-circle" src="#"/>
 						</a>
 						<ul class="dropdown-menu dropdown-menu-default">
 							
 							<li>
 								<a href="<?php echo SITE_URL;?>users/logout">
-								<i class="icon-key"></i> Log Out </a>
+								<i class="icon-key"></i>Cerrar sesión</a>
 							</li>
 						</ul>
 					</li>

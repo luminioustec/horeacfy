@@ -14,10 +14,10 @@ var TableManaged = function () {
                     "sortDescending": ": activate to sort column descending"
                 },
                 "emptyTable": "No data available in table",
-                "info": "Showing _START_ to _END_ of _TOTAL_ entries",
-                "infoEmpty": "No entries found",
-                "infoFiltered": "(filtered1 from _MAX_ total entries)",
-                "lengthMenu": "Show _MENU_ entries",
+                "info": "Showing _START_ to _END_ of _TOTAL_ entradas",
+                "infoEmpty": "No entradas found",
+                "infoFiltered": "(filtered1 from _MAX_ total entradas)",
+                "lengthMenu": "Show _MENU_ entradas",
                 "search": "Search:",
                 "zeroRecords": "No matching records found"
             },
@@ -113,11 +113,11 @@ var TableManaged = function () {
                     "sortDescending": ": activate to sort column descending"
                 },
                 "emptyTable": "No data available in table",
-                "info": "Showing _START_ to _END_ of _TOTAL_ entries",
-                "infoEmpty": "No entries found",
-                "infoFiltered": "(filtered1 from _MAX_ total entries)",
-                "lengthMenu": "Show _MENU_ entries",
-                "search": "Search:",
+                "info": " _START_ to _END_ of _TOTAL_ entradas",
+                "infoEmpty": "No entradas found",
+                "infoFiltered": "(filtered1 from _MAX_ total entradas)",
+                "lengthMenu": "Show _MENU_ entradas",
+                "search": "Buscar:",
                 "zeroRecords": "No matching records found"
             },
 
@@ -185,10 +185,10 @@ var TableManaged = function () {
                     "sortDescending": ": activate to sort column descending"
                 },
                 "emptyTable": "No data available in table",
-                "info": "Showing _START_ to _END_ of _TOTAL_ entries",
-                "infoEmpty": "No entries found",
-                "infoFiltered": "(filtered1 from _MAX_ total entries)",
-                "lengthMenu": "Show _MENU_ entries",
+                "info": "Showing _START_ to _END_ of _TOTAL_ entradas",
+                "infoEmpty": "No entradas found",
+                "infoFiltered": "(filtered1 from _MAX_ total entradas)",
+                "lengthMenu": "Show _MENU_ entradas",
                 "search": "Search:",
                 "zeroRecords": "No matching records found"
             },

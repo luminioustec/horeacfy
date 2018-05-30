@@ -46,12 +46,12 @@
                       </div>
                     </fieldset>
 					<fieldset>
-                      <div class="form-group">
+                      <!--div class="form-group">
                         <label for="password" class="col-lg-4 control-label">Tipo de negocio<span class="require">*</span></label>
                         <div class="col-lg-8">
                           <?php echo $this->Form->input('typeOfbusiness',array('class'=>'form-control','div'=>false,'label'=>false,'typw'=>'Select','empty'=>'Select','options'=>$tob)); ?>
                         </div>
-                      </div>
+                      </div-->
                       <div class="form-group">
                         <label for="confirm-password" class="col-lg-4 control-label">Nombre de contacto<span class="require">*</span></label>
                         <div class="col-lg-8">
