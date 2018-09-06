@@ -5,7 +5,7 @@ App::uses('AppController', 'Controller');
 class WholesalersController extends AppController {
 	public $helpers  = array('Html', 'Form');
     public $components = array('RequestHandler','Session','Paginator','Csv');
-	public $uses= array('Customer','Wholesaler','Category','Family','Wholesalerlist','Demand','Offer');
+	public $uses= array('Customer','Wholesaler','Category','Family','Wholesalerlist','Demand','Offer','Price');
 	 
 
 	public function beforeFilter() {
